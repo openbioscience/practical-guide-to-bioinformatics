@@ -30,12 +30,12 @@ They are [NCBI Genome Assembly accession numbers](https://support.nlm.nih.gov/kn
 ### What are all these "accession number" prefixes?
 |Prefix|Database|Meaning|
 |:-----|:-------|:------|
-|nsv|dbVar|submitted to NCBI|
-|nssv|dbVar|submitted to NCBI|
-|esv|dbVar|submitted to EBI|
-|essv|dbVar|submitted to EBI|
-|dsv|dbVar|submitted to DDBJ|
-|dssv|dbVar|submitted to DDBJ|
+|nsv|dbVar|variant region (sv = structural variant), submitted to NCBI|
+|nssv|dbVar|variant call (ssv = supporting structural variant), submitted to NCBI|
+|esv|dbVar|variant region, submitted to EBI|
+|essv|dbVar|variant call, submitted to EBI|
+|dsv|dbVar|variant region, submitted to DDBJ|
+|dssv|dbVar|variant call, submitted to DDBJ|
 |GCA|GenBank|Genome Assembly|
 |GCF|RefSeq|Genome Assembly|
 
