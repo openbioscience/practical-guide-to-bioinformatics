@@ -50,6 +50,8 @@ _Uncurated database of nucleic acid and protein sequences from labs around the w
 _Genome feature manipulation tool._
 
 ### Tutorials
-1. [Introduction to bedtools (sandbox.bio)](https://sandbox.bio/tutorials/?id=bedtools-intro)
+1. [Description of the BED (Browser Extensible Data) file format.](http://genome.ucsc.edu/FAQ/FAQformat.html#format1)
+    - BED files provide a flexible way to define the data lines that are displayed in an genome annotation track.
+2. [Introduction to bedtools (sandbox.bio)](https://sandbox.bio/tutorials/?id=bedtools-intro)
 
 ---
