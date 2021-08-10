@@ -3,6 +3,7 @@
 ## Recommended Order
 TODO: Add image of recommended prereqs
 
+**Note:** Tutorials are presented in the recommended order of completion.
 
 ---
 
@@ -47,5 +48,8 @@ _Uncurated database of nucleic acid and protein sequences from labs around the w
 ## bedtools
 
 _Genome feature manipulation tool._
+
+### Tutorials
+1. [Introduction to bedtools (sandbox.bio)](https://sandbox.bio/tutorials/?id=bedtools-intro)
 
 ---
