@@ -116,4 +116,14 @@ _Chromatin state discovery and characterization software._
 - [Project website](http://compbio.mit.edu/ChromHMM/)
 - [Chromatin-state discovery and genome annotation with ChromHMM](https://www.nature.com/articles/nprot.2017.124)
 
+---
 
+## ChIP-seq
+
+_Chromatin immunoprecipitation with sequencing: a way to analyze protein interactions with DNA, often in epigenomics._
+
+### Lectures
+
+- [UCLA QCBio Collaboratory: ChIP-seq analysis I](https://www.youtube.com/watch?v=uWM5WT3Dt0k)
+- [UCLA QCBio Collaboratory: ChIP-seq analysis II](https://www.youtube.com/watch?v=7xre8FmUb8A)
+- [UCLA QCBio Collaboratory: ChIP-seq analysis III](https://www.youtube.com/watch?v=JYBP5BpRfTM)
