@@ -106,5 +106,14 @@ _Variant call format (and binary counterpart) files are used to describe sequenc
 ## General Feature Format (GFF3) file format
 
 - [learn.gencore.bio.nyu.edu: GFF3](https://learn.gencore.bio.nyu.edu/ngs-file-formats/gff3-format/)
-_
+
 ---
+
+## ChromHMM
+
+_Chromatin state discovery and characterization software._
+
+- [Project website](http://compbio.mit.edu/ChromHMM/)
+- [Chromatin-state discovery and genome annotation with ChromHMM](https://www.nature.com/articles/nprot.2017.124)
+
+
