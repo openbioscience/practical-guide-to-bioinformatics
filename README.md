@@ -4,7 +4,7 @@
 TODO: Add image of recommended prereqs
 
 - **Note:** Tutorials are presented in the recommended order of completion.
-- **Note:** 💡 = general info, 📁 = file format, 🗃️ = database, W = web service, T = offline tool, M = experimental method
+- **Note:** 💡 = general info, 📁 = file format, 🗃️ = database, 🌐 = web service, 🧰 = offline tool, 🧪 = experimental method
 
 ## 💡 Genetic codes
 
@@ -25,7 +25,7 @@ _Uncurated, archival database of nucleic acid and protein sequences from labs ar
 ### Tutorials
 - [GenBank Sample Record with explanations](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html).
 
-## [D] RefSeq
+## 🗃️ RefSeq
 
 _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced from GenBank._
 
@@ -34,7 +34,7 @@ _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced fro
 - [General information about RefSeq (part of Frequently Asked Questions)](https://www.ncbi.nlm.nih.gov/books/NBK50679/#RefSeqFAQ.General_Information_about_RefS)
 - [NCBI Handbook, Chapter 18: The RefSeq Database (2002)](https://www.ncbi.nlm.nih.gov/books/NBK21091/)
 
-## [T] Muscle
+## 🧰 Muscle
 
 _A multiple sequence alignment tool._
 
@@ -44,20 +44,20 @@ _A multiple sequence alignment tool._
 - [Clustal Omega](http://www.clustal.org/omega/). The latest addition to the Clustal multiple sequence alignment software family. Clustal Omega scales well to hundreds of thousands of sequences (aligned in a few hours).
 
 
-## [T] AliView
+## 🧰 AliView
 
 _A multiple sequence alignment viewer written in Java._
 
 - Supported on Windows, macOS, and Linux.
 
-## [D] Gene
+## 🗃️ Gene
 
 _Database of genes integrated information from multiple data sources._
 
 - [Documentation for the Gene Database](https://www.ncbi.nlm.nih.gov/books/NBK3839/)
   - [Documentation on Advanced Search Queries](https://www.ncbi.nlm.nih.gov/books/NBK3841/)
 
-## [W] Entrez
+## 🌐 Entrez
 
 _NCBI's global database search engine._
 
@@ -65,11 +65,11 @@ _NCBI's global database search engine._
 - [Entrez Programming Utilities (E-utilities)](https://www.ncbi.nlm.nih.gov/books/NBK25501/)
   - [Entrez Direct: E-utilities on the Unix Command Line](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
 
-## [D] dbVar
+## 🗃️ dbVar
 
 _NCBI's archival (uncurated) database of large scale genomic variants (insertions, deletions, inversions)._
 
-## [T] bedtools
+## 🧰 bedtools
 
 _Genome feature manipulation tool._
 
@@ -80,24 +80,24 @@ Developed by the [Quinlan Lab at the University of Utah](http://quinlanlab.org/)
     - BED files provide a flexible way to define the data lines that are displayed in an genome annotation track.
 2. [Introduction to bedtools (sandbox.bio)](https://sandbox.bio/tutorials/?id=bedtools-intro)
 
-## [F] SAM/BAM file format (`.sam`, `.bam`)
+## 📁 SAM/BAM file format (`.sam`, `.bam`)
 
 _Sequence alignment/mapping file format._
 
-## [T] bowtie2
+## 🧰 bowtie2
 
 _Aligns reads from a sequencer against a reference genome._
 
 - `bowtie2` generates SAM files as output.
 - [Github repository](https://github.com/BenLangmead/bowtie2)
 
-## [T] samtools
+## 🧰 samtools
 
 _Suite of tools for viewing and manipulating SAM/BAM files._
 
 - [Github repository](https://github.com/samtools/samtools)
 
-## [F] VCF/BCF file format (`.vcf`, `.bcf`)
+## 📁 VCF/BCF file format (`.vcf`, `.bcf`)
 
 _Variant call format (and binary counterpart) files are used to describe sequence variations in genomic data._
 
@@ -109,26 +109,26 @@ _Variant call format (and binary counterpart) files are used to describe sequenc
 ### Tutorials
 - [NYU Genomics Core Learning Modules: VCF file format](https://learn.gencore.bio.nyu.edu/ngs-file-formats/vcf-format/)
 
-## [T] bcftools
+## 🧰 bcftools
 
 _Utilities for viewing and manipulating VCF/BCF files._
 
 - [Github repository](https://github.com/samtools/bcftools)
 
-## [F] General Feature Format (GFF3) file format (`.gff`)
+## 📁 General Feature Format (GFF3) file format (`.gff`)
 
 _Most flexible file format used to annotate genomic sequences with features._
 
 - [NYU Genomics Core Learning Modules: GFF3 file format](https://learn.gencore.bio.nyu.edu/ngs-file-formats/gff3-format/)
 
-## [T] ChromHMM
+## 🧰 ChromHMM
 
 _Chromatin state discovery and characterization software._
 
 - [Project website](http://compbio.mit.edu/ChromHMM/)
 - [Chromatin-state discovery and genome annotation with ChromHMM](https://www.nature.com/articles/nprot.2017.124)
 
-## [M] ChIP-seq
+## 🧪 ChIP-seq
 
 _Chromatin immunoprecipitation with sequencing: a way to analyze protein interactions with DNA, often in epigenomics._
 
@@ -137,3 +137,7 @@ _Chromatin immunoprecipitation with sequencing: a way to analyze protein interac
 - [UCLA QCBio Collaboratory: ChIP-seq analysis I](https://www.youtube.com/watch?v=uWM5WT3Dt0k)
 - [UCLA QCBio Collaboratory: ChIP-seq analysis II](https://www.youtube.com/watch?v=7xre8FmUb8A)
 - [UCLA QCBio Collaboratory: ChIP-seq analysis III](https://www.youtube.com/watch?v=JYBP5BpRfTM)
+
+## 🧪 RNA sequencing (RNA-seq)
+
+## 🧪 Single cell RNA sequencing (scRNA-seq)
