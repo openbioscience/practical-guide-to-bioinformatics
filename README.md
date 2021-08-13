@@ -61,7 +61,7 @@ Developed by the [Quinlan Lab at the University of Utah](http://quinlanlab.org/)
 
 ---
 
-## SAM/BAM (`.sam`, `.bam`) file format
+## SAM/BAM file format (`.sam`, `.bam`)
 
 _Sequence alignment/mapping file format._
 
@@ -84,7 +84,7 @@ _Aligner._
 
 ---
 
-## VCF/BCF (`.vcf`, `bcf`) file format
+## VCF/BCF file format (`.vcf`, `.bcf`)
 
 _Variant call format (and binary counterpart) files are used to describe sequence variations in genomic data._
 
@@ -103,7 +103,7 @@ _Variant call format (and binary counterpart) files are used to describe sequenc
 
 ---
 
-## General Feature Format (GFF3) file format
+## General Feature Format (GFF3) file format (`.gff`)
 
 - [learn.gencore.bio.nyu.edu: GFF3](https://learn.gencore.bio.nyu.edu/ngs-file-formats/gff3-format/)
 
