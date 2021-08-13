@@ -69,7 +69,7 @@ _Sequence alignment/mapping file format._
 
 ## bowtie2
 
-_Aligner._
+_Aligns reads from a sequencer against a reference genome._
 
 - Output
   - Generates SAM files
