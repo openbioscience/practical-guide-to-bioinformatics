@@ -13,7 +13,7 @@ TODO: Add image of recommended prereqs
 
 ---
 
-## FASTA (`.fasta`, `.fna`, `.faa`) file format
+## FASTA file format (`.fasta`, `.fna`, `.faa`)
 
 - `.fasta`, `.fa`. generic FASTA
 - `.fna`. FASTA nucleic acid
@@ -45,6 +45,11 @@ _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced fro
 ## Muscle
 
 _A multiple sequence alignment tool._
+
+- [Project website](https://drive5.com/muscle/)
+
+### Alternatives
+- [Clustal Omega](http://www.clustal.org/omega/). The latest addition to the Clustal multiple sequence alignment software family. Clustal Omega scales well to hundreds of thousands of sequences (aligned in a few hours).
 
 ---
 
