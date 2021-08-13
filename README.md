@@ -7,7 +7,18 @@ TODO: Add image of recommended prereqs
 
 ---
 
-## FASTA file format
+## Genetic codes
+
+- [The Genetic Codes (NCBI)](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
+
+---
+
+## FASTA (`.fasta`, `.fna`, `.faa`) file format
+
+- `.fna`. FASTA nucleic acid
+- `.faa`. FASTA amino acid
+
+---
 
 ## GenBank and RefSeq
 
@@ -22,6 +33,19 @@ TODO: Add image of recommended prereqs
 ### Notes
 - Updates denoted by increment to the numeric version after the decimal; e.g. `NM_xxx.2` ([source](https://archive.is/W6CyS))
 - [NCBI Handbook, Chapter 18: The RefSeq Database](https://www.ncbi.nlm.nih.gov/books/NBK21091/)
+
+
+---
+
+## Muscle
+
+_A multiple sequence alignment tool._
+
+
+---
+
+## Jalview
+
 
 ---
 
