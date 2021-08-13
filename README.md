@@ -20,19 +20,23 @@ TODO: Add image of recommended prereqs
 
 ---
 
-## GenBank and RefSeq
+---
 
-**GenBank**: _Uncurated database of nucleic acid and protein sequences from labs around the world._
-**RefSeq**: _Curated DNA, mRNA, and protein sequences._
+## GenBank
 
-- The difference between GenBank and RefSeq is that GenBank is not curated.
+_Uncurated, archival database of nucleic acid and protein sequences from labs around the world._
 
 ### Tutorials
 - [GenBank Sample Record with explanations](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html).
 
+## RefSeq
+
+_Curated, non-redundant database of DNA, mRNA, and protein sequences sourced from GenBank._
+
 ### Notes
 - Updates denoted by increment to the numeric version after the decimal; e.g. `NM_xxx.2` ([source](https://archive.is/W6CyS))
-- [NCBI Handbook, Chapter 18: The RefSeq Database](https://www.ncbi.nlm.nih.gov/books/NBK21091/)
+- [General information about RefSeq (part of Frequently Asked Questions)](https://www.ncbi.nlm.nih.gov/books/NBK50679/#RefSeqFAQ.General_Information_about_RefS)
+- [NCBI Handbook, Chapter 18: The RefSeq Database (2002)](https://www.ncbi.nlm.nih.gov/books/NBK21091/)
 
 
 ---
@@ -55,7 +59,6 @@ _Database of genes integrated information from multiple data sources._
 
 - [Documentation for the Gene Database](https://www.ncbi.nlm.nih.gov/books/NBK3839/)
   - [Documentation on Advanced Search Queries](https://www.ncbi.nlm.nih.gov/books/NBK3841/)
-
 
 ---
 
@@ -85,7 +88,7 @@ Developed by the [Quinlan Lab at the University of Utah](http://quinlanlab.org/)
 
 ---
 
-## SAM/BAM (`.sam`, `.bam`) file format
+## SAM/BAM file format (`.sam`, `.bam`)
 
 _Sequence alignment/mapping file format._
 
@@ -93,7 +96,7 @@ _Sequence alignment/mapping file format._
 
 ## bowtie2
 
-_Aligner._
+_Aligns reads from a sequencer against a reference genome._
 
 - Output
   - Generates SAM files
@@ -108,7 +111,7 @@ _Aligner._
 
 ---
 
-## VCF/BCF (`.vcf`, `bcf`) file format
+## VCF/BCF file format (`.vcf`, `.bcf`)
 
 _Variant call format (and binary counterpart) files are used to describe sequence variations in genomic data._
 
@@ -127,7 +130,7 @@ _Variant call format (and binary counterpart) files are used to describe sequenc
 
 ---
 
-## General Feature Format (GFF3) file format
+## General Feature Format (GFF3) file format (`.gff`)
 
 - [learn.gencore.bio.nyu.edu: GFF3](https://learn.gencore.bio.nyu.edu/ngs-file-formats/gff3-format/)
 
