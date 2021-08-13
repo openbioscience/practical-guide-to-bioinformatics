@@ -3,15 +3,14 @@
 ## Recommended Order
 TODO: Add image of recommended prereqs
 
-**Note:** Tutorials are presented in the recommended order of completion.
+- **Note:** Tutorials are presented in the recommended order of completion.
+- **Note:** I = general info, F = file format, D = database, W = web service, T = offline tool, M = experimental method
 
-
-## Genetic codes
+## [I] Genetic codes
 
 - [The Genetic Codes (NCBI)](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
 
-
-## FASTA file format (`.fasta`, `.fna`, `.faa`)
+## [F] FASTA file format (`.fasta`, `.fna`, `.faa`)
 
 - `.fasta`, `.fa`. generic FASTA
 - `.fna`. FASTA nucleic acid
@@ -19,15 +18,14 @@ TODO: Add image of recommended prereqs
 - `.faa`. FASTA amino acid
 - `.ffn`. FASTA nucleotide of gene regions (i.e. coding regions)
 
-
-## GenBank
+## [D] GenBank
 
 _Uncurated, archival database of nucleic acid and protein sequences from labs around the world._
 
 ### Tutorials
 - [GenBank Sample Record with explanations](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html).
 
-## RefSeq
+## [D] RefSeq
 
 _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced from GenBank._
 
@@ -36,8 +34,7 @@ _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced fro
 - [General information about RefSeq (part of Frequently Asked Questions)](https://www.ncbi.nlm.nih.gov/books/NBK50679/#RefSeqFAQ.General_Information_about_RefS)
 - [NCBI Handbook, Chapter 18: The RefSeq Database (2002)](https://www.ncbi.nlm.nih.gov/books/NBK21091/)
 
-
-## Muscle
+## [T] Muscle
 
 _A multiple sequence alignment tool._
 
@@ -47,22 +44,20 @@ _A multiple sequence alignment tool._
 - [Clustal Omega](http://www.clustal.org/omega/). The latest addition to the Clustal multiple sequence alignment software family. Clustal Omega scales well to hundreds of thousands of sequences (aligned in a few hours).
 
 
-## AliView
+## [T] AliView
 
 _A multiple sequence alignment viewer written in Java._
 
 - Supported on Windows, macOS, and Linux.
 
-
-## Gene
+## [D] Gene
 
 _Database of genes integrated information from multiple data sources._
 
 - [Documentation for the Gene Database](https://www.ncbi.nlm.nih.gov/books/NBK3839/)
   - [Documentation on Advanced Search Queries](https://www.ncbi.nlm.nih.gov/books/NBK3841/)
 
-
-## Entrez
+## [W] Entrez
 
 _NCBI's global database search engine._
 
@@ -70,11 +65,11 @@ _NCBI's global database search engine._
 - [Entrez Programming Utilities (E-utilities)](https://www.ncbi.nlm.nih.gov/books/NBK25501/)
   - [Entrez Direct: E-utilities on the Unix Command Line](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
 
-## dbVar
+## [D] dbVar
 
 _NCBI's archival (uncurated) database of large scale genomic variants (insertions, deletions, inversions)._
 
-## bedtools
+## [T] bedtools
 
 _Genome feature manipulation tool._
 
@@ -85,29 +80,24 @@ Developed by the [Quinlan Lab at the University of Utah](http://quinlanlab.org/)
     - BED files provide a flexible way to define the data lines that are displayed in an genome annotation track.
 2. [Introduction to bedtools (sandbox.bio)](https://sandbox.bio/tutorials/?id=bedtools-intro)
 
-
-## SAM/BAM file format (`.sam`, `.bam`)
+## [F] SAM/BAM file format (`.sam`, `.bam`)
 
 _Sequence alignment/mapping file format._
 
-
-## bowtie2
+## [T] bowtie2
 
 _Aligns reads from a sequencer against a reference genome._
 
-- Output
-  - Generates SAM files
-
+- `bowtie2` generates SAM files as output.
 - [Github repository](https://github.com/BenLangmead/bowtie2)
 
-## samtools
+## [T] samtools
 
 _Suite of tools for viewing and manipulating SAM/BAM files._
 
 - [Github repository](https://github.com/samtools/samtools)
 
-
-## VCF/BCF file format (`.vcf`, `.bcf`)
+## [F] VCF/BCF file format (`.vcf`, `.bcf`)
 
 _Variant call format (and binary counterpart) files are used to describe sequence variations in genomic data._
 
@@ -119,29 +109,26 @@ _Variant call format (and binary counterpart) files are used to describe sequenc
 ### Tutorials
 - [NYU Genomics Core Learning Modules: VCF file format](https://learn.gencore.bio.nyu.edu/ngs-file-formats/vcf-format/)
 
-
-## bcftools
+## [T] bcftools
 
 _Utilities for viewing and manipulating VCF/BCF files._
 
 - [Github repository](https://github.com/samtools/bcftools)
 
-## General Feature Format (GFF3) file format (`.gff`)
+## [F] General Feature Format (GFF3) file format (`.gff`)
 
 _Most flexible file format used to annotate genomic sequences with features._
 
 - [NYU Genomics Core Learning Modules: GFF3 file format](https://learn.gencore.bio.nyu.edu/ngs-file-formats/gff3-format/)
 
-
-## ChromHMM
+## [T] ChromHMM
 
 _Chromatin state discovery and characterization software._
 
 - [Project website](http://compbio.mit.edu/ChromHMM/)
 - [Chromatin-state discovery and genome annotation with ChromHMM](https://www.nature.com/articles/nprot.2017.124)
 
-
-## ChIP-seq
+## [M] ChIP-seq
 
 _Chromatin immunoprecipitation with sequencing: a way to analyze protein interactions with DNA, often in epigenomics._
 
