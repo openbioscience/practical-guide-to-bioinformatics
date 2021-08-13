@@ -15,10 +15,11 @@ TODO: Add image of recommended prereqs
 
 ## FASTA (`.fasta`, `.fna`, `.faa`) file format
 
+- `.fasta`, `.fa`. generic FASTA
 - `.fna`. FASTA nucleic acid
+- `.frn`. FASTA non-coding RNA
 - `.faa`. FASTA amino acid
-
----
+- `.ffn`. FASTA nucleotide of gene regions (i.e. coding regions)
 
 ---
 
@@ -45,11 +46,13 @@ _Curated, non-redundant database of DNA, mRNA, and protein sequences sourced fro
 
 _A multiple sequence alignment tool._
 
-
 ---
 
-## Jalview
+## AliView
 
+_A multiple sequence alignment viewer written in Java._
+
+- Supported on Windows, macOS, and Linux.
 
 ---
 
