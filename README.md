@@ -9,14 +9,18 @@ TODO: Add image of recommended prereqs
 
 ## FASTA file format
 
-## GenBank and RefSeq
+---
 
-- **GenBank**. _Uncurated database of nucleic acid and protein sequences from labs around the world._
-- **RefSeq**. _Curated DNA, mRNA, and protein sequences._
-- The difference between GenBank and RefSeq is that GenBank is not curated.
+## GenBank
+
+_Uncurated, archival database of nucleic acid and protein sequences from labs around the world._
 
 ### Tutorials
 - [GenBank Sample Record with explanations](https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html).
+
+## RefSeq
+
+_Curated, non-redundant database of DNA, mRNA, and protein sequences sourced from GenBank._
 
 ### Notes
 - Updates denoted by increment to the numeric version after the decimal; e.g. `NM_xxx.2` ([source](https://archive.is/W6CyS))
@@ -31,7 +35,6 @@ _Database of genes integrated information from multiple data sources._
 
 - [Documentation for the Gene Database](https://www.ncbi.nlm.nih.gov/books/NBK3839/)
   - [Documentation on Advanced Search Queries](https://www.ncbi.nlm.nih.gov/books/NBK3841/)
-
 
 ---
 
