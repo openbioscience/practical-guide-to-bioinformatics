@@ -4,13 +4,13 @@
 TODO: Add image of recommended prereqs
 
 - **Note:** Tutorials are presented in the recommended order of completion.
-- **Note:** I = general info, F = file format, D = database, W = web service, T = offline tool, M = experimental method
+- **Note:** 💡 = general info, 📁 = file format, 🗃️ = database, W = web service, T = offline tool, M = experimental method
 
-## [I] Genetic codes
+## 💡 Genetic codes
 
 - [The Genetic Codes (NCBI)](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi)
 
-## [F] FASTA file format (`.fasta`, `.fna`, `.faa`)
+## 📁 FASTA file format (`.fasta`, `.fna`, `.faa`)
 
 - `.fasta`, `.fa`. generic FASTA
 - `.fna`. FASTA nucleic acid
@@ -18,7 +18,7 @@ TODO: Add image of recommended prereqs
 - `.faa`. FASTA amino acid
 - `.ffn`. FASTA nucleotide of gene regions (i.e. coding regions)
 
-## [D] GenBank
+## 🗃️ GenBank
 
 _Uncurated, archival database of nucleic acid and protein sequences from labs around the world._
 
