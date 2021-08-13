@@ -12,6 +12,7 @@ TODO: Add image of recommended prereqs
 ## GenBank and RefSeq
 
 **GenBank**: _Uncurated database of nucleic acid and protein sequences from labs around the world._
+
 **RefSeq**: _Curated DNA, mRNA, and protein sequences._
 
 - The difference between GenBank and RefSeq is that GenBank is not curated.
