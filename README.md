@@ -141,3 +141,18 @@ _Chromatin immunoprecipitation with sequencing: a way to analyze protein interac
 ## 🧪 RNA sequencing (RNA-seq)
 
 ## 🧪 Single cell RNA sequencing (scRNA-seq)
+
+## Protein-ligand interactions
+
+### 🌐 Protein-ligand Interaction Profiler (PLIP)
+
+_Identifies non-covalent interactions between biological macromolecules and their ligands._
+
+- [Link to web service](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index)
+
+### 🌐 Protein Plus
+
+_Another protein-ligand prediction program._
+
+- [Link to web service](https://proteins.plus/)
+
