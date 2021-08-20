@@ -1,0 +1,21 @@
+molecule ch3br {
+5
+6323
+Br        -0.96740        0.00000        0.00000
+C          0.96740        0.00000        0.00000
+H          1.30600       -1.03390        0.08050
+H          1.30600        0.44720       -0.93570
+H          1.30600        0.58680        0.85520
+}
+
+scf_e, scf_wfn = energy("B3LYP/cc-pVDZ", return_wfn=True)
+
+HOMO = scf_wfn.epsilon_a_subset("AO", "ALL").np[scf_wfn.nalpha()]
+LUMO = scf_wfn.epsilon_a_subset("AO", "ALL").np[scf_wfn.nalpha() + 1]
+
+print(scf_wfn.nalpha())
+
+set cubeprop_tasks ["orbitals"]
+set cubeprop_orbitals [22, 23, -22, -23]
+
+cubeprop(scf_wfn)
