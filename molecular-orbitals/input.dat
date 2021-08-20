@@ -1,0 +1,15 @@
+molecule h2o {
+0 1
+O
+H 1 1.0
+H 1 1.0 2 104.5
+}
+
+set basis cc-pvdz
+set scf_type df
+set freeze_core True
+set cubeprop_tasks ['orbitals']
+set cubeprop_orbitals [5,6,-5,-6]
+
+E, wfn = energy('scf', return_wfn=True)
+cubeprop(wfn)
