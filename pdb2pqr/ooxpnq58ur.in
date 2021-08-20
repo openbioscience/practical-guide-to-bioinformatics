@@ -1,0 +1,27 @@
+read
+    mol pqr ooxpnq58ur.pqr
+end
+elec 
+    mg-auto
+    dime 161 193 129
+    cglen 89.7770 117.4734 84.1432
+    fglen 72.8100 89.1020 69.4960
+    cgcent mol 1
+    fgcent mol 1
+    mol 1
+    lpbe
+    bcfl sdh
+    pdie 2.0000
+    sdie 78.5400
+    srfm smol
+    chgm spl2
+    sdens 10.00
+    srad 1.40
+    swin 0.30
+    temp 298.15
+    calcenergy total
+    calcforce no
+    write pot dx ooxpnq58ur.pqr
+end
+print elecEnergy 1 end
+quit
