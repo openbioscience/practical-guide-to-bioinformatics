@@ -13,6 +13,7 @@ na = scf_wfn.nalpha()
 
 set cubeprop_tasks ["orbitals"]
 set cubeprop_orbitals [5, 6, -5, -6]
+set cubic_grid_overage [10, 10, 10]
 
 cubeprop(scf_wfn)
 
