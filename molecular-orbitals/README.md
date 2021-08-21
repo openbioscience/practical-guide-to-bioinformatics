@@ -25,6 +25,7 @@ $ pip install psikit
 
 ```
 # in pymol
+# isosurface also works (?)
 isomesh HOMO_alpha, Psi_a_16_16-A, -0.02
 isomesh HOMO_beta, Psi_b_16_16-A, 0.02
 color teal, HOMO_alpha
